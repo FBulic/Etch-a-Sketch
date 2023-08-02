@@ -1,0 +1,138 @@
+body {
+    background: linear-gradient(#e66465, #9198e5);
+    height: 98vh;
+    user-select:none;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    
+    font-weight: bolder;
+}
+
+.div-color {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-left: 240px;
+    height: 70px; 
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+
+.gridContainer {
+   
+    width: 800px;
+    height: 800px;
+    display: grid;
+    background: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.first-div {
+    width: 600px;
+    height: 830px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ .second-div {
+    border: 3px solid black;
+    width: 840px;
+    height: 830px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(73, 8, 8);
+ }
+
+ .eraser {
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 90px;
+    width: 130px;
+    background-image: linear-gradient(
+    to left,
+    rgb(201, 87, 87) 60%,
+    white 65% 45%,
+    rgb(48, 48, 197) 68%
+  );
+  text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+ }
+
+ .eraser:hover {
+    outline-color: transparent;
+outline-style:solid;
+box-shadow: 0 0 0 4px #4400ff;
+transition: 0.1s;
+ }
+
+ .newCanvas {
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 90px;
+    width: 130px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    background: white;
+    font-weight: bolder;
+ }
+
+ .newCanvas:hover {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #4400ff;
+    transition: 0.1s;
+ }
+
+ .rainbowBtn {
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 90px;
+    width: 130px;
+    background: linear-gradient(45deg, red, orange, yellow, green, rgb(103, 103, 252), rgb(143, 76, 190), violet, red);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+ }
+
+ .rainbowBtn:hover {
+outline-color: transparent;
+outline-style:solid;
+box-shadow: 0 0 0 4px #4400ff;
+transition: 0.1s;
+}
+
+.colorPick {
+    border: #4400ff;
+    height: 70px;
+    width: 70px;
+}
+   
+
+ 

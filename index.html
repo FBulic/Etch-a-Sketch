@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="etch-a-sketch.js" defer></script>
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <div class="title">
+    <h1 >Etch-a-Sketch</h1>
+    </div>
+    
+    <div class="container">
+        <div class="first-div">
+            <div class="div-color">
+                <p>Pick a color</p>
+                <input type="color" class="colorPick" id="colorPick" value="#000000">   
+            </div>
+            
+            <div class="slider"> 
+                <p class="sizeText">40 x 40</p>
+                <input  type="range" class="size" id="size" name="size" min="15" max="70" value="40"  step="5"> 
+            </div> 
+            <div>
+                <button  class="newCanvas" id="newCanvas">New Canvas</button>
+            </div>
+                <div>
+                    <button class="eraser" id="eraser">Eraser</button>
+                </div>
+                <div>
+                    <button class="rainbowBtn" id="rainbowBtn">Rainbow</button>
+                </div>
+                
+        </div>
+        <div class="second-div">
+            <div class="gridContainer" id ="gridContainer">
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
